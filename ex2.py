@@ -1,11 +1,11 @@
-string = input("Digite uma palavra aqui: ")
+string = input("Digite uma palavra ou frase aqui: ")
 
 string = string.lower()
 qtde_de_a = 0
 
 
 for a in string:
-    if a == "a":
+    if a == "a" or a == "á" or a == "ã" or a == "â" or a == "à":
         qtde_de_a += 1
 
 if qtde_de_a > 0:
